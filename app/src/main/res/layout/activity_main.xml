@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_Layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView_id"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:hint="@string/hint"
+            android:orientation="horizontal"
+            android:textStyle="bold"
+            android:textSize="35sp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1_id"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp">
+
+        <TableRow
+            android:id="@+id/sin_cos_tan_row_id"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/sinBtn"
+                android:text="sin" />
+
+            <Button
+                android:id="@+id/cosBtn"
+                android:text="cos" />
+
+            <Button
+                android:id="@+id/tanBtn"
+                android:text="tan" />
+
+            <Button
+                android:id="@+id/delete_id"
+                android:text="delete" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/exp_log_mod_row"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/expBtn"
+                android:text="exp" />
+
+            <Button
+                android:id="@+id/logBtn"
+                android:text="log" />
+
+            <Button
+                android:id="@+id/modBtn"
+                android:baselineAligned="false"
+                android:text="mod" />
+
+            <Button
+                android:id="@+id/pointBtn"
+                android:text="."/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/one_two_three_div_id"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/oneBtn"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/twoBtn"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/threeBtn"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/divBtn"
+                android:text="/" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/four_five_six_mul_id"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/fourBtn"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/fiveBtn"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/sixBtn"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/mulBtn"
+                android:text="*" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/seven_eight_nine_"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/sevenBtn"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/eightBtn"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/nineBtn"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/subBtn"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/clear_zero_point_id"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/clearBtn"
+                android:text="c" />
+
+            <Button
+                android:id="@+id/zeroBtn"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/res_id"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/addBtn"
+                android:text="+" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
